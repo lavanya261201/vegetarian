@@ -1,1 +1,8 @@
 
+.navbar-nav{
+  padding-left: 2rem;
+}
+
+.jumbotron-bike{
+  background-image: image(href="./resources/images/cow.jpg");
+}
