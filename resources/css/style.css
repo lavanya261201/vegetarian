@@ -3,6 +3,14 @@
   padding-left: 2rem;
 }
 
-.jumbotron-bike{
-  background-image: image(href="./resources/images/cow.jpg");
+.jumbotron-bike .jumbotron{
+  background-image:url("./resources/images/cow.jpg");
+}
+
+.row{
+  border: 1px solid red;
+}
+
+.image-container{
+  border: 1px solid red;
 }
