@@ -14,20 +14,61 @@ p{
   font-weight: 400;
 }
 
+/*Navigation Bar*/
+
 .navbar-nav{
   padding-left: 2rem;
 }
 
 /*Jumbotron*/
 
-.jumbotron{
-  background-image: url(http://i3.mirror.co.uk/incoming/article9456387.ece/ALTERNATES/s615/Holstein-dairy-cow-at-Bega-NSW.jpg);
-  width: 100%;
+.jumbotron-pig{
+  background-image: url(http://kids.nationalgeographic.com/content/dam/kids/photos/animals/Mammals/H-P/pig-young-closeup.ngsversion.1412640764383.adapt.945.1.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  filter: opacity(70%);
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.jumbotron-deforestation{
+  background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/983/images/story_full_width/deforestation-causes-HI_104236.jpg?1406604922);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  filter: opacity(70%);
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron-cow{
+  background-image: url(http://assets.nydailynews.com/polopoly_fs/1.3386603.1501944627!/img/httpImage/image.jpg_gen/derivatives/article_750/157182162.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  filter: opacity(70%);
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron-fish{
+  background-image: url(http://i.huffpost.com/gen/1352080/images/o-FISHERIES-facebook.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  filter: opacity(70%);
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .jumbotron h1{
   font-family: Sintony;
+  /*text-align: center;*/
 }
 
 img{
@@ -51,10 +92,6 @@ img{
   opacity: 1;
   transform: scale(1.3);
 }
-
-
-
-
 
 /*Footer*/
 footer{
